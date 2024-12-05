@@ -9,6 +9,33 @@
   text-decoration: none;
 }
 
+
+/* body{
+  background: #222;
+  overflow: hidden;
+}
+
+i{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  pointer-events: none;
+  animation: animate 2s linear forwards;
+}
+@keyframes animate{
+  0%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+  100%{
+    opacity: 0;
+    transform: translate(var(--x),var(--y));
+  }
+} */
+
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -157,6 +184,16 @@ html {
 }
 .home .home-content .web {
   margin-right: 25px;
+}
+
+.home .home-content .resume{
+  margin: 25px;
+  background: black;
+  color: white;
+}
+
+.home .home-content .resume:hover{
+  background: crimson ;
 }
 
 .home .home-content a:hover {

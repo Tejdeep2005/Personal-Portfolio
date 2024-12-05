@@ -16,7 +16,28 @@
 </head>
 
 <body>
-    <!-- Scroll Button start -->
+ <!---- <script>
+        function spark(event){
+            let i=document.createElement('i');
+            i.style.left=(event.pageX)+'px';
+            i.style.top=(event.pageY)+'px';
+            i.style.scale='${Math.random()*2+1}';
+            i.style.setProperty('--x',getRandomTransitionValue());
+            i.style.setProperty('--y',getRandomTransitionValue());
+
+            document.body.appendChild(i);
+
+            setTimeout(()=>{
+                document.body.removeChild(i);
+            },2000)
+        }
+
+        function getRandomTransitionValue(){
+            return '${Math.random() * 400 - 200}px';
+        }
+        document.addEventListener('mousemove', spark);
+    </script> >
+    < Scroll Button start -->
     <div class="scroll-up-btn">
         <i class="fas fa-angle-double-up"></i>
     </div>
@@ -63,6 +84,7 @@
                </a>
                 <a href="https://www.linkedin.com/in/konda-tejdeep-a0a4b7259/" target="_blank" rel="noreferrer">I'm looking to hire <i class="fad fa-angle-right"></i>
                </a>
+               <a href="https://drive.google.com/file/d/1XobWWqHWgZf0aGVsE0r0Wj1IeCKBsSLu/view?usp=sharing" download class="resume" target="_blank">My Resume <i class="fad fa-angle-right"></i>
             </div>
         </div>
     </section>
